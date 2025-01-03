@@ -1,0 +1,27 @@
+# Logs and temporary files
+*.log
+*.tmp
+
+# Python-specific files (excluding .py files)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.eggs/
+*.coverage
+*.pytest_cache/
+*.tox/
+*.vscode/
+
+# Virtual environments
+env/
+venv/
+
+# Dependency files (lock files can be added if needed)
+pip-log.txt
+pip-delete-this-directory.txt
+
+# OS-specific files
+.DS_Store
+Thumbs.db
