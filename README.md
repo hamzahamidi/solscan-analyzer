@@ -1,4 +1,4 @@
-# Solcan Token Analyzer
+# Solscan Token Analyzer
 
 This api uses Solscan to analyze specific tokens on the Solana blockchain. The agent takes a token's address as input and provide detailed insights about the top N wallets holding that token (where N is a variable I can configure).
 
@@ -44,13 +44,16 @@ The analysis includes the following for each wallet:
     # SOLSCAN API credentials
     SOLSCAN_API_KEY=<YOUR_SOLSCAN_API_KEY>
 
+    # OPENAI API credentials
+    OPENAI_API_KEY=<YOUR_OPENAI_API_KEY>
+
     # Top N wallets holding that token
     # Default: 10
     # N should be 10, 20, 30 or 40
     TOP_N=10
    ```
 
-5. **Run the Bot**
+5. **Run the application**
 
    ```bash
    python index.py
